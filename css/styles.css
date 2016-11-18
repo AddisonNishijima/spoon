@@ -70,7 +70,8 @@ th::after {
   content: "*";
 }
 
-#related img {
+.related img {
+  float: left;
   margin: 20px;
   display: inline-block;
   height: 200px;
@@ -83,7 +84,7 @@ th::after {
           transition: all 0.5s ease;
 }
 
-#related img:hover {
+.related img:hover {
   -webkit-transform: rotate(-10deg);
      -moz-transform: rotate(-10deg);
        -o-transform: rotate(-10deg);
@@ -91,7 +92,7 @@ th::after {
           transform: rotate(-10deg);
 }
 
-#related h3 {
+.related h3 {
   text-align: center;
   font-family: 'Cinzel Decorative', cursive;
 }
