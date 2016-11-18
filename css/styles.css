@@ -1,0 +1,9 @@
+#main {
+  position: relative;
+}
+
+#caption {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}
