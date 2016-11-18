@@ -1,9 +1,17 @@
+#nav {
+  padding: 10px;
+}
+
+#nav h1 {
+  text-align: center;
+}
+
 #main {
   position: relative;
 }
 
 #caption {
   position: absolute;
-  top: 150px;
-  left: 400px;
+  top: 170px;
+  left: 410px;
 }
